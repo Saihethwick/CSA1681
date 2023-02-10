@@ -1,0 +1,8 @@
+library(tools)
+library(HSAUR)
+View(water)
+s<-data.frame(water$mortality,water$hardness)
+View(s)
+table(s)
+head(s)
+plot(s)
