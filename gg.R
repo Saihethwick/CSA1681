@@ -1,0 +1,7 @@
+j<-c(35,40,55,60,29,58,63)
+library(ggplot2)
+t<-c(1,2,3,4,5,6,7)
+n<-c(12,5,5,6,2,8,3)
+boxplot(j,t,n)
+geom_histogram(j,t,n)
+plot(j,t,n)
